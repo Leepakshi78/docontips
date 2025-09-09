@@ -15,7 +15,11 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+// app.use(cors())
+app.use(cors({
+  origin: 'https://docontips-frontend-rn73utoab-leepakshi-raths-projects.vercel.app',
+  credentials: true,
+}));
 
 // api endpoints
 app.use("/api/user", userRouter)
