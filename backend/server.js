@@ -18,6 +18,8 @@ app.use(express.json())
 // app.use(cors())
 app.use(cors({
   origin: 'https://docontips-frontend-rn73utoab-leepakshi-raths-projects.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Origin', 'X-Requested-With', 'Accept', 'dtoken', 'token', 'atoken'],
   credentials: true,
 }));
 
