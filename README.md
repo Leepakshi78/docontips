@@ -14,6 +14,12 @@ https://docontips-frontend.vercel.app/
 **Admin Panel:**
 https://docontips-admin.vercel.app/
 
+Admin Email : admin@example.com
+Admin Password : admin
+
+Demo Doctor email : admin3@example.com
+Doctor Password : 1234admin3
+
 -----
 
 ### ✨ Features
